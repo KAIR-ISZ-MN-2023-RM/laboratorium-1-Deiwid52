@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "pytest",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest numpy ",
+      "setup": "sudo -H pip3 install pytest numpy scipy matplotlib",
+      "run": "pytest",
       "input": "",
       "output": "",
       "comparison": "exact",
